@@ -1,0 +1,13 @@
+
+
+In JavaScript, operators are symbols used to
+ perform operations on variables and values. 
+ Here's a comprehensive list of operators categorized by their types:
+
+ 1 Arithmetic Operators:
+ 2 Assignment Operators:
+ 3 Comparison Operators:
+ 4 Logical Operators:
+ 5 Unary Operators:
+ 6 Conditional (Ternary) Operator:
+ 7 Bitwise Operators (Advanced):
