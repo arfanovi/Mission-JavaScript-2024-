@@ -1,0 +1,94 @@
+What Types of Data Types are There?
+
+    * Primitive Data Types:
+    * Reference Data Types:
+    * Additional Data Types (ES6+):
+    * Special Cases:
+
+1. Primitive Data Types:
+    *Number
+    *String
+    *Boolean
+    *Undefined
+    *Null
+    *Symbol(ES6)
+
+    ***********************************
+
+Number: Represents numeric values, both integers and floating-point numbers.
+
+        Example: let num = 10;
+
+String: Represents sequences of characters enclosed within single (') or double (") quotes.
+
+        Example: let name = 'Alice';
+
+Boolean: Represents logical values true or false.
+
+        Example: let isValid = true;
+
+Undefined: Represents a variable that has been declared but not assigned a value.
+
+        Example: let x;
+
+Null: Represents an intentional absence of any object value.
+
+        Example: let y = null;
+
+Symbol (ES6): Represents unique identifiers introduced in ES6.
+
+        Example: let sym = Symbol('foo');
+
+
+
+
+
+
+
+2. Reference Data Types:
+Object: Represents a collection of key-value pairs (properties and methods).
+
+        Example: let person = { name: 'Bob', age: 30 };
+
+Array: Represents a collection of elements indexed by integers.
+
+        Example: let numbers = [1, 2, 3, 4];
+
+Function: Represents reusable blocks of code that can be invoked by name.
+            function greet(name) {
+  return 'Hello, ' + name;
+            }
+
+
+
+
+
+
+
+3. Additional Data Types (ES6+):
+BigInt (ES11): Represents integers larger than the maximum safe integer (Number.MAX_SAFE_INTEGER).
+
+        Example: let bigNum = 123n;
+
+Symbol: Represents a unique identifier, useful for object property keys.
+
+        Example: let sym = Symbol('description');
+
+
+
+
+
+
+
+
+Special Cases:
+
+* NaN (Not a Number): Represents a value that is not a legal number.
+
+Example: let result = 10 / 'abc'; // result will be NaN
+
+
+* Infinity and -Infinity: Represents positive and negative infinity 
+  values.
+Example: let posInfinity = Infinity;
+Example: let negInfinity = -Infinity;

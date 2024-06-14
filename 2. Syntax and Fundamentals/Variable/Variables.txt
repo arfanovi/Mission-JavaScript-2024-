@@ -1,0 +1,50 @@
+****************
+
+Let's break down the concepts of 
+var, let, and const in JavaScript, 
+covering their definitions, 
+how they are used,
+ when to use each, 
+ when they were introduced, 
+ and their purposes:
+
+ ************
+ ******
+
+Scope :
+    * var => Function-scoped or globally scoped	
+    * let => Block-scoped
+    * const => Block-scoped
+
+Reassignment: 
+    * Can be reassigned	
+    * Can be reassigned	
+    * Cannot be reassigned
+
+Variable Declaration with var, let, and const:: 
+    * var x;
+      var y = 10;
+    
+    * let a;
+      let b = 20;
+
+    * const PI = 3.14;
+
+
+
+
+******* Question *********
+Question: What's the difference between var, let, and const in JavaScript?
+Answer: var is used to declare variables that can be redefined and updated throughout the program. let is similar but restricts the variable to the block (or curly braces) where it's defined, making it more predictable. const, short for constant, is used for values that should never change once they're set.
+
+Question: Why would you use let instead of var?
+Answer: let is recommended because it helps prevent bugs caused by variable hoisting (where variables are moved to the top of their scope). It also limits the variable's scope to the block it's defined in, making code easier to understand and maintain.
+
+Question: Can you change the value of a variable declared with const?
+Answer: No, const variables cannot be reassigned once they're given a value. They're typically used for values that should stay constant throughout the program.
+
+Question: What happens if you try to use a variable declared with let or const before it's declared?
+Answer: You'll get a reference error because JavaScript doesn't allow variables declared with let or const to be accessed before they're declared in the code. This is called the "temporal dead zone."
+
+Question: When should you use const?
+Answer: Use const when you have a value that you know should never change. For example, constants like mathematical constants (const PI = 3.14) or configuration settings that should remain fixed throughout your program.
