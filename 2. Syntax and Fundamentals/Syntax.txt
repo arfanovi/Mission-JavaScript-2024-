@@ -1,0 +1,14 @@
+        *******
+JavaScript syntax refers 
+to the set of rules that 
+determines how JavaScript programs are constructed:
+
+// Variable declaration
+let c, d, e;
+
+// Assign value to the variable
+c = 5; 
+
+// Computer value of variables
+d = c;
+e = c / d;
