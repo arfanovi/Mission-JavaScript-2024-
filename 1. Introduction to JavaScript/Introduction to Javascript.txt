@@ -1,0 +1,34 @@
+
+******************************************
+*    What is JavaScript?                 *
+*    History of JavaScript               *
+*    JavaScript in the browser           *
+*    Including JavaScript in HTML        *
+*                                        *
+******************************************
+
+** (1) What is JavaScript?
+        A high-level, interpreted programming language for creating interactive web pages.
+
+** (2) History of JavaScript
+        Created by Brendan Eich in 1995 at Netscape; originally called Mocha, then LiveScript, and finally JavaScript
+
+** (3) JavaScript in the Browser
+        Runs in web browsers to enable dynamic content and interactivity.
+
+** (4) Including JavaScript in HTML
+        Inline JavaScript: Inside a <script> tag in the HTML file.
+        External JavaScript: Linking an external .js file using the <script src="script.js"></script> tag in the HTML file.
+
+        Step : 1 | Internal
+            <script>
+                    document.getElementById("demo").innerHTML = "Hello!";
+            </script>
+
+        Step : 2 | External
+            <script src="script.js"></script>
+
+****************************************************
+These questions and answers provide a solid foundation
+for understanding the basics of JavaScript and 
+its role in web development, suitable for an introductory level up.
