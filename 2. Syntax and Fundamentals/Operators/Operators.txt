@@ -11,3 +11,170 @@ In JavaScript, operators are symbols used to
  5 Unary Operators:
  6 Conditional (Ternary) Operator:
  7 Bitwise Operators (Advanced):
+
+
+
+***************************
+
+Addition: 
+let sum = 5 + 3; // sum is 8
+
+
+Subtraction: 
+let difference = 10 - 5; // difference is 5
+
+Multiplication: 
+let product = 4 * 6; // product is 24
+
+
+Division: 
+let quotient = 20 / 5; // quotient is 4
+
+Remainder (Modulus): 
+let remainder = 15 % 4; // remainder is 3
+
+
+
+**************************************
+
+Assignment Operators:
+Assignment operators are used to assign values to variables.
+
+Assignment: =
+let x = 10; // assigns 10 to variable x
+
+Addition assignment: +=
+let y = 5;
+y += 3; // equivalent to y = y + 3; y is now 8
+
+
+Subtraction assignment: -=
+let z = 7;
+z -= 2; // equivalent to z = z - 2; z is now 5
+
+
+Multiplication assignment: *=
+let a = 3;
+a *= 4; // equivalent to a = a * 4; a is now 12
+
+
+
+Division assignment: /=
+let b = 20;
+b /= 5; // equivalent to b = b / 5; b is now 4
+
+
+
+
+
+
+**********************************************
+Comparison Operators:
+Comparison operators are used to compare values.
+
+Equal to: ==
+let isEqual = (5 == 5); // isEqual is true
+
+
+Not equal to: !=
+let notEqual = (10 != 5); // notEqual is true
+
+
+Strict equal to: ===
+let strictEqual = (5 === '5'); // strictEqual is false (different types)
+
+
+
+Strict not equal to: !==
+let strictNotEqual = (10 !== '10'); // strictNotEqual is true (different types)
+
+
+
+Greater than: >
+let greaterThan = (15 > 10); // greaterThan is true
+
+
+
+Less than: <
+let lessThan = (2 < 5); // lessThan is true
+
+
+Greater than or equal to: >=
+let greaterOrEqual = (20 >= 20); // greaterOrEqual is true
+
+
+
+Less than or equal to: <=
+let lessOrEqual = (8 <= 7); // lessOrEqual is false
+
+
+
+
+
+
+**********************************************
+Logical Operators:
+Logical operators are used to combine or manipulate boolean values.
+
+Logical AND: &&
+let resultAnd = (true && false); // resultAnd is false
+
+
+Logical OR: ||
+let resultOr = (true || false); // resultOr is true
+
+
+Logical NOT: !
+let resultNot = !true; // resultNot is false
+
+
+Unary Operators:
+Unary operators operate on a single operand.
+
+Unary plus: +
+let unaryPlus = +10; // unaryPlus is 10
+
+
+Unary minus: -
+let unaryMinus = -5; // unaryMinus is -5
+
+
+Increment: ++
+let increment = 5;
+
+
+increment++; // increment is now 6
+
+
+Decrement: --
+let decrement = 8;
+
+
+decrement--; // decrement is now 7
+
+
+
+
+
+
+********************************************
+Conditional (Ternary) Operator:
+The conditional operator is a shorthand for if-else statements.
+
+Conditional (Ternary) Operator: ? 
+let age = 18;
+let status = (age >= 18) ? 'Adult' : 'Minor'; // status is 'Adult'
+
+
+
+*****************************/////
+Bitwise Operators (Advanced):
+Bitwise operators manipulate the binary representations of numbers.
+
+Bitwise AND: &
+Bitwise OR: |
+Bitwise XOR: ^
+Bitwise NOT: ~
+Left shift: <<
+Signed right shift: >>
+Unsigned right shift: >>>
